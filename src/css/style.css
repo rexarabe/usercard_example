@@ -1,0 +1,47 @@
+*{
+    margin:0;
+}
+body {
+
+    background-color: darkslategray;
+
+}
+.userCard{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    min-width:220px;
+    max-width: 400px;
+    transition:0.3s;
+    margin: auto;
+    text-align: center  ;
+
+}
+
+.userInfo{
+    color: grey;
+    font-size: 18px;
+}
+.userFullName{
+    font-weight: bold;
+    background-color: grey;
+}
+.userName{
+    color: blue;
+    font-weight: lighter;
+}
+.userLocation{
+    background-color: red;
+    color:white;
+}
+.userImageContainer{
+    overflow: fragments;
+    box-shadow: steelblue;
+    box-sizing: border-box;
+    text-align: center;
+}
+.statValue{
+    color: blue;
+}
+.statName{
+    margin:auto;
+}
